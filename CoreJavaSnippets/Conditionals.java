@@ -1,5 +1,6 @@
 package CoreJavaSnippets;
 
+@SuppressWarnings("unused")
 public class Conditionals {
     public static void main(String[] args) {
         // if else
