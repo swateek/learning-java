@@ -1,7 +1,7 @@
 package CoreJavaSnippets.OOPSConcepts;
 
 public class Encapsulation {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Student std = new Student();
         std.setName("Swateek");
         std.setAddress("BAM");

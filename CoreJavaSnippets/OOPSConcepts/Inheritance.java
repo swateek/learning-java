@@ -1,7 +1,7 @@
 package CoreJavaSnippets.OOPSConcepts;
 
 public class Inheritance {
-   public static void main(String args[]){
+   public static void main(String[] args){
     MountainBike mtb = new MountainBike(3, 100, 25);
     System.out.println(mtb.toString());
    }

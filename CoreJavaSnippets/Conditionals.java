@@ -1,11 +1,11 @@
 package CoreJavaSnippets;
 
 public class Conditionals {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // if else
         System.out.println("** Testing if..else **");
         if("a" == "b"){
-            System.out.println("Yes");
+            System.out.println("Yes"); // this is never reached
         }else{
             System.out.println("No! a is not equal to b");
         }

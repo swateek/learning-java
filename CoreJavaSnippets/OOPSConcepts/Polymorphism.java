@@ -1,7 +1,7 @@
 package CoreJavaSnippets.OOPSConcepts;
 
 public class Polymorphism{
-    public static void main(String args[]){
+    public static void main(String[] args){
        Polymorphism poly = new Polymorphism();
        System.out.println(poly.sum(10, 20));
        System.out.println(poly.sum(10, 20, 30));

@@ -9,13 +9,6 @@
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-HelloWorld<Java_7c1b5685>",
-            "request": "launch",
-            "mainClass": "CoreJavaSnippets.HelloWorld",
-            "projectName": "Java_7c1b5685"
         }
     ]
 }
