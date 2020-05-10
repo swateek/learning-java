@@ -6,7 +6,9 @@ Contains code snippets written in Java. For my personal learning endeavors, coul
 
 The code has been divided into section, all realted to Java.
 
-    * CoreJavaSnippets ~ elaborates on Core Java concepts. 
+    * **CoreJavaSnippets** ~ elaborates on Core Java concepts. 
+    * **AdvanceJavaConcepts** ~ moved deeper into Java territory, to the trickier parts.
+    * **DesignPatterns** ~ talks about variety of design patterns, not exhaustive.
 
 
 
