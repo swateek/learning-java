@@ -7,8 +7,8 @@ import java.util.concurrent.Future;
 public class ExecutorFrameworkDemo {
     
     private static ExecutorService executor = null;
-    private static volatile Future taskOneResult = null;
-    private static volatile Future taskTwoResult = null;
+    private static volatile Future<?> taskOneResult = null;
+    private static volatile Future<?> taskTwoResult = null;
 
     private static void checkTasks() throws Exception{
         if(taskOneResult == null || taskOneResult.isDone() || taskOneResult.isCancelled()){
@@ -33,6 +33,7 @@ public class ExecutorFrameworkDemo {
     }
 }
 
+@SuppressWarnings("unused")
 class TestOne implements Runnable {
     @Override
     public void run() {
