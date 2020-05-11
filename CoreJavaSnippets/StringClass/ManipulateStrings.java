@@ -21,5 +21,15 @@ public class ManipulateStrings {
         System.out.println(s3.capacity()); // 42 -  allocated capacity to the string above.
         s3.append("StringBuilder class is non-synchronized (hence, not thread safe), and this append modifies the original string");
         System.out.println(s3); // StringBuilder is mutable. StringBuilder class is non-synchronized (hence, not thread safe), and this append modifies the original string
+
+        // String intern()
+        String s4 = "Cuttack";
+        String s5 = new String("Cuttack");
+        System.out.println(s4 == s5); // false, because string literal is created in string pool while string object is created in heap memory.
+        String s6 = s4.intern();
+        String s7 = s5.intern();
+        System.out.println(s6 == s4); // true, since both are present in string pool.
+        System.out.println(s5 == s7); // false
+        System.out.println(s6 == s7); // true, since both are present in string pool.
     }
 }
