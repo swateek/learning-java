@@ -1,4 +1,4 @@
-package CoreJavaSnippets;
+package AdvanceJavaConcepts;
 
 import java.util.Arrays;
 import java.util.List;
